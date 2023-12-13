@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* univarsal selector */
+        *{
+            padding: 0;
+            margin: 0;
+           
+
+        }
+        /* Type selector */
+        /* h1{
+            background-color: rgba(127, 255, 212, 0.588);
+        } */
+         /* classbase selector */
+         .amir{
+            background-color: rgba(165, 42, 42, 0.595);
+         }
+         /* idbase selector */
+         #bg-green{
+            background-color: rgba(0, 0, 255, 0.361);
+         }
+         /* tagbase selection */
+         a{
+            background-color: rgba(128, 255, 0, 0.64);
+         }
+         /* attributebase select */
+         a[target]{
+            background-color: rgba(255, 255, 0, 0.3);
+         }
+         a[ target="1"]{
+            background-color: rgba(0, 255, 255, 0.547);
+         }
+         a[ target="_blank"]{
+            background-color: rgba(255, 99, 71, 0.803);
+         }
+         a[ target="_parent"]{
+            background-color: bisque;
+         }
+         /* groupingbase selector */
+         h1,h2,h3,h4{
+            background-color: rgba(64, 224, 208, 0.218);
+         }
+         /* combinater base selector */
+         ul li{
+            background-color: rgba(0, 100, 0, 0.809);
+         }
+header > a{
+    background-color: rgba(0, 0, 255, 0.56);
+}
+/* img ~ p{
+    background-color: rgba(255, 140, 0, 0.651);
+} */
+img + p{
+    background-color: rgba(0, 255, 64, 0.555);
+}
+
+    </style>
+</head>
+<body>
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    
+    <h2 class="amir">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3 id="bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga!</h3>
+    <h4 class="amir" id="bg-green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio omnis optio expedita!</h4>
+    <a href="https:pwskills.com">PW Skills</a>
+    <a target="1" href="https:google.com">Google</a>
+    <a target="_blank" href="https:wikipedia.com">Wikipedia</a>
+    <a target="_parent" href="https:instagram.com">instagrame</a> -->
+
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <!-- classbase selector -->
+    <h2 >Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga!</h3>
+    <h4  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio omnis optio expedita!</h4>
+<ul>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ul>
+<li>four</li>
+<header>
+    <a href="#">Google</a>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <a href="#">Logo</a>
+        </ul>
+    </nav>
+    <a href="#">Bing</a>
+</header>
+
+<!-- general sebling -->
+<div>
+    <img src="#" alt="">
+    <p>Change me</p>
+    <p>Change me too</p>
+</div>
+<div><p>Change me too</p></div>
+
+
+    <a href="https:pwskills.com">PW Skills</a>
+    <a target="1" href="https:google.com">Google</a>
+    <a target="_blank" href="https:wikipedia.com">Wikipedia</a>
+    <a target="_parent" href="https:instagram.com">instagrame</a>
+</body>
+</html>

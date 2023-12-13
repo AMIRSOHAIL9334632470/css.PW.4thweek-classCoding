@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        /* pseudo selector in css */
+        /* h1:hover{
+         background-color:rgba(102, 51, 153, 0.563);   
+        } */
+        button:focus{
+            background-color: rgba(128, 255, 0, 0.726);
+        }
+        input:disabled{
+            background-color: #1b791fa2;
+        }
+        div:first-child{
+            background-color: #b1138f92;
+        }
+        div:last-child{
+            background-color: #d40c84a7;
+        }
+        div:nth-child(2n){
+            background-color: #159f4f8a;
+        }
+        /* pseudo selector sepecial */
+        
+        h1::after{
+            content: " After !";
+            color: #dc1212dd;
+           
+        }
+        h1::before{
+            content: "Before !  ";
+            color: #12dc59ea;
+           
+        }
+        p::first-line{
+            background-color: #4612c0de;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <input disabled type="checkbox" name="" id="">
+    <button>Submit</button>
+
+
+    <h1>Hover</h1>
+    <button>Focus</button>
+    <input type="text" required="true"/>
+    <input type="checkbox" name="" id=""/>
+    <input type="text" disabled="true"/>
+    <div>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+    </div>
+
+
+
+
+    <h1>Pseudo before and after selector</h1>
+    <h2>First letter selector</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, rem harum! 
+        Architecto dicta consequuntur tempora aut incidunt? Eos nesciunt 
+        
+        repudiandae temporibus optio quasi?
+    </p>
+    
+    
+</body>
+</html>
